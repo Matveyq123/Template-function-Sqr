@@ -1,9 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <map>
-#include <sstream>
 #include <utility>
-#include <string>
 
 template <typename T> T Sqr(T value); //template function for numbers
 template<typename Vec> std::vector<Vec> Sqr(const std::vector<Vec>& v); //template function for vector 
